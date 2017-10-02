@@ -74,8 +74,8 @@ BOOL CMQTTSendDlg::OnInitDialog()
 
 	// Задает значок для этого диалогового окна.  Среда делает это автоматически,
 	//  если главное окно приложения не является диалоговым
-	SetIcon(m_hIcon, TRUE);			// Крупный значок
-	SetIcon(m_hIcon, FALSE);		// Мелкий значок
+	SetIcon(m_hIcon, TRUE);
+	SetIcon(m_hIcon, FALSE);
 
 	// create tray icon
 	m_trayMessage = RegisterWindowMessage(L"Tray notification");
